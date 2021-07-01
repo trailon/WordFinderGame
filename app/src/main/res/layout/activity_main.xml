@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttoncontinue"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="560dp"
+        android:background="#b57edc"
+        android:text="DEVAM ET"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/buttonnewgame"
+        android:layout_gravity="center"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-105dp"
+        android:background="#b57edc"
+        android:text="YENI OYUN"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="332dp"
+        android:layout_height="234dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-500dp"
+        android:scaleX="2.5"
+        android:scaleY="2.5"
+        android:src="@drawable/kelimebul" />
+
+    <TextView
+        android:id="@+id/isimgirin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="İsim girin" />
+
+    <EditText
+        android:id="@+id/isim"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#009688"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="İsim" />
+
+    <Button
+        android:id="@+id/buttonHighScores"
+        android:layout_width="206dp"
+        android:layout_height="94dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="52dp"
+        android:background="#b57edc"
+        android:text="YUKSEK SKORLAR"
+        android:textSize="30dp" />
+
+
+</LinearLayout>
